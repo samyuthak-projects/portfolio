@@ -207,3 +207,51 @@ h2 {
   border-color: var(--soft-rose);
   transform: translateY(-2px);
 }
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skills span {
+  background: rgba(240, 235, 230, 0.95);
+  border: 1px solid var(--border);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--text);
+  transition: 0.2s;
+  box-shadow: 0 4px 12px rgba(43, 10, 30, 0.04);
+}
+
+.skills span:hover {
+  background: rgba(196, 132, 154, 0.18);
+  border-color: var(--soft-rose);
+  transform: translateY(-2px);
+}
+
+/* SHARED CARD STYLE */
+.project,
+.award-card,
+.cert-card,
+article,
+.timeline .content {
+  background: rgba(240, 235, 230, 0.95);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: 0.25s ease;
+  box-shadow: 0 8px 24px rgba(43, 10, 30, 0.05);
+}
+
+.project:hover,
+.award-card:hover,
+.cert-card:hover,
+article:hover,
+.timeline .content:hover {
+  transform: translateY(-5px);
+  border-color: rgba(107, 26, 46, 0.18);
+}
+
