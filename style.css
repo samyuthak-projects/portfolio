@@ -286,3 +286,48 @@ article:hover,
   background: #561426;
 }
 
+/* EXPERIENCE */
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: rgba(43, 10, 30, 0.10);
+}
+
+.timeline .content {
+  padding: 24px;   /* 🔥 fixes text hugging edges */
+  line-height: 1.6;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  margin-bottom: 35px; /* gives breathing space between cards */
+}
+
+.dot {
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(107, 26, 46, 0.18);
+}
+
+.company {
+  font-size: 13px;
+  color: var(--muted);
+}
