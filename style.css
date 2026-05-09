@@ -182,3 +182,28 @@ h2 {
   min-width: 280px;
   color: var(--text);
 }
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.skills span {
+  background: rgba(240, 235, 230, 0.95);
+  border: 1px solid var(--border);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--text);
+  transition: 0.2s;
+  box-shadow: 0 4px 12px rgba(43, 10, 30, 0.04);
+}
+
+.skills span:hover {
+  background: rgba(196, 132, 154, 0.18);
+  border-color: var(--soft-rose);
+  transform: translateY(-2px);
+}
