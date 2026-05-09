@@ -21,3 +21,19 @@ nav a {
   color: #2b0a1e;
   font-size: 14px;
 }
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  color: #6b6b6b;
+  margin-top: 10px;
+}
