@@ -1,4 +1,23 @@
+/* BASIC RESET */
 body {
   margin: 0;
   font-family: 'Inter', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: rgba(250, 248, 245, 0.9);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+nav a {
+  text-decoration: none;
+  color: #2b0a1e;
+  font-size: 14px;
 }
