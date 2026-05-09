@@ -33,7 +33,32 @@ nav a {
   margin: 0;
 }
 
-.hero p {
+.subtitle {
   color: #6b6b6b;
   margin-top: 10px;
+  font-size: 18px;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  margin-top: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 5px;
+  display: inline-block;
+}
+
+.primary {
+  background: #6b1a2e;
+  color: white;
+}
+
+.secondary {
+  border: 1px solid #6b1a2e;
+  color: #6b1a2e;
 }
