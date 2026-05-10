@@ -459,3 +459,101 @@ article h3 {
   color: var(--muted);
 }
 
+/* FLOATING CONTACT */
+.floating-contact {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 999;
+}
+
+.floating-contact a,
+.email-menu > summary {
+  width: 48px;
+  height: 48px;
+  background: rgba(240, 235, 230, 0.96);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.25s ease;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  list-style: none;
+  box-shadow: 0 8px 20px rgba(43, 10, 30, 0.06);
+}
+
+.floating-contact a:hover,
+.email-menu > summary:hover {
+  transform: translateY(-3px) scale(1.05);
+  border-color: rgba(107, 26, 46, 0.22);
+  color: var(--accent);
+  box-shadow: 0 10px 25px rgba(107, 26, 46, 0.12);
+}
+
+.email-menu {
+  position: relative;
+}
+
+.email-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.email-options {
+  position: absolute;
+  right: 60px;
+  bottom: 0;
+  width: 190px;
+  padding: 14px;
+  background: var(--surface);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.email-menu[open] .email-options,
+.email-menu:hover .email-options {
+  display: flex;
+}
+
+.email-options a,
+.copy-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  color: var(--text);
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 13px;
+}
+
+.email-options a:hover {
+  transform: translateX(-2px);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.copy-box {
+  line-height: 1.5;
+}
+
+.copy-box span {
+  word-break: break-word;
+}
+
