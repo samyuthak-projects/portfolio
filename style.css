@@ -383,3 +383,25 @@ article:hover,
   color: var(--accent);
   font-weight: 600;
 }
+
+/* BLOG */
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+article {
+  padding: 18px;
+}
+
+article h3 {
+  color: var(--text);
+}
+
+.view-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
