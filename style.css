@@ -331,3 +331,55 @@ article:hover,
   font-size: 13px;
   color: var(--muted);
 }
+
+/* AWARDS */
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.award-card {
+  padding: 18px;
+}
+
+.award-card h3 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.issuer {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 6px 0 10px;
+}
+
+
+/* CERTIFICATIONS */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.cert-card {
+  padding: 18px;
+}
+
+.cert-card h3 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.cert-card .issuer {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.cert-card .skills {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 600;
+}
