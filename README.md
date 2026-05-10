@@ -46,8 +46,6 @@ portfolio/
 │
 ├── index.html        # Main page structure
 ├── style.css         # Styling and layout
-├── script.js         # Interactivity
-├── assets/           # Images and media
 └── README.md         # This file
 ```
 
